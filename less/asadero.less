@@ -161,6 +161,27 @@ aside {
         }
     }
 }
+// Añadido //
+.solid-color{
+  background-color: white;
+  border-color: fade(@gray-darker, 5%);
+  .navbar-header .navbar-brand {
+      color: @theme-primary;
+      font-size: 14px;
+      &:hover,
+      &:focus {
+          color: darken(@theme-primary, 10%);
+      }
+  }
+  .nav > li > a,
+  .nav > li > a:focus {
+      color: @gray-darker;
+      &:hover {
+          color: @theme-primary;
+      }
+  }
+}
+// Fin Añadido //
 
 // Homepage Header
 
@@ -170,7 +191,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/campfire.png');
+    background-image: url('../img/campfire.jpg');
     text-align: center;
     color: white;
     .header-content {
