@@ -41,6 +41,12 @@
     delay: 200
   }),
 
+  sr.reveal(".sr-price", {
+    duration: 600,
+    scale: .3,
+    distance: "0px"
+  }, 200),
+
   sr.reveal(".sr-contact", {
     duration: 600,
     scale: .3,
