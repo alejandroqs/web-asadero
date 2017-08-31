@@ -1,12 +1,12 @@
 {
-  "name": "creative",
-  "title": "Creative",
+  "name": "macroasadero",
+  "title": "Macro Asadero",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/creative",
-  "author": "Start Bootstrap",
+  "homepage": "http://macroasadero.xyz/",
+  "author": "Alejandro Quesada",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "url": "https://github.com/alejandroqs/web-asadero/blob/master/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -24,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+    "url": "https://github.com/alejandroqs/web-asadero.git"
   }
 }
